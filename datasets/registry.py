@@ -185,11 +185,11 @@ def get_dataset(dataset_name, preprocess, location, batch_size=128, num_workers=
         # Handle val splits
         if dataset_name in registry:
             print("Specified dataset is in the registry")
-			print("Getting the validation split dataset...")
+            print("Getting the validation split dataset...")
             dataset_class = registry[dataset_name]
         else:
             print("Specified dataset is not in registry...")
-			print("Starting split_train_into_train_val procedure...")
+            print("Starting split_train_into_train_val procedure...")
             base_dataset_name = dataset_name.split('Val')[0]
             base_dataset = get_dataset(base_dataset_name, preprocess, location, batch_size, num_workers)
             dataset = split_train_into_train_val(
