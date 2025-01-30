@@ -1,6 +1,9 @@
 # AML & DAAI 2024/2025 Project - Optimizing Task Arithmetic: Multi-Task Learning and Complexity Trade-offs Across Training Conditions
 Official repository for the "__Optimizing Task Arithmetic: Multi-Task Learning and Complexity Trade-offs Across Training Conditions__" project - Advanced Machine Learning & Data Analysis and Artificial Intelligence Courses 2024/2025 @ PoliTo
-
+### Authors : 
+- Francesco di Lucia (s323176)
+- Alessandro Vancini (s306034) 
+- Alessandro Rizzo (s323717)
 ## Getting Started
 Make sure to have a CUDA capable device, supporting at least CUDA 11.8, installed and correctly configured on your system. 
 
