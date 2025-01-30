@@ -56,5 +56,5 @@ python eval_scaled_single_task.py \
 --lr=1e-4 \
 --wd=0.0 \
 --model="ViT-B-32-quickgelu" \
---alpha=best_alpha_value
+--alpha=0.3  # Example value, replace with the best alpha
 
